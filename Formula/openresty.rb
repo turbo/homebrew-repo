@@ -12,7 +12,7 @@ class Openresty < Formula
 
   depends_on "pcre"
   depends_on "postgresql" => :optional
-  depends_on "openresty/brew/openresty-openssl"
+  depends_on "turbo/brew/openresty-openssl"
   depends_on "geoip"
 
   skip_clean "site"
